@@ -9,8 +9,47 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --accent-color: rgba(255, 0, 112, 1);
+  --text-size: 18px;
+  --background-color-page: rgba(255, 241, 247, 1);
+  --h1-color--and-footer: rgba(255, 194, 230, 1);
+  --font-family: 'IBM Plex mono', sans-serif;
+  --color-p-text: rgba(53, 52, 48, 1);
+  --h3-color: rgba(53, 52, 48, 1);
+  --back-color-h3: rgba(255, 141, 203, 1);
+  --background-image-header: url('../images/cover-image-light.png');
+  --h2-title-color: rgba(53, 52, 48, 1);
+  --header-footer-color-shadow: rgba(255, 141, 203, 1);
+  --corner-color: rgba(53, 52, 48, 1);
+  --color-button: rgba(53, 52, 48, 1);
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+
+  
 }
+
+.theme-light .header-text-lamp {
+  display: none;
+  
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: rgba(255, 0, 112, 1);
+    --text-size: 18px;
+    --background-color-page: rgba(255, 241, 247, 1);
+    --h1-color--and-footer: rgba(255, 194, 230, 1);
+    --font-family: 'IBM Plex mono', sans-serif;
+    --color-p-text: rgba(53, 52, 48, 1);
+    --h3-color: rgba(53, 52, 48, 1);
+    --back-color-h3: rgba(255, 141, 203, 1);
+    --background-image-header: url('../images/cover-image-light.png');
+    --h2-title-color: rgba(53, 52, 48, 1);
+    --header-footer-color-shadow: rgba(255, 141, 203, 1);
+    --corner-color: rgba(53, 52, 48, 1);
+    --color-button: rgba(53, 52, 48, 1); 
+  }
+}
+
