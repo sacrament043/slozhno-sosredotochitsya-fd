@@ -40,6 +40,8 @@
   position: relative;
   padding: 10px;
   display: grid;
+  display: block;
+  place-items: center;
 }
 
 .decorated-zone::before,
@@ -276,36 +278,6 @@ footer {
   padding: 286px 13px 285px 14px;
 }
 
-.decorated-zone {
-  position: relative;
-  display: block;
-  place-items: center;
-}
-
-.decorated-zone::before,
-.decorated-zone::after {
-  content: "";
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  border: 1px solid var(--corner-color);
-  margin: 10px;
-}
-
-.decorated-zone::before {
-  top: 0;
-  right: 0;
-  border-bottom: none;
-  border-left: none;
-}
-
-.decorated-zone::after {
-  bottom: 0;
-  left: 0;
-  border-top: none;
-  border-right: none;
-}
-
 @media (min-width: 768px) {
   .title-decor {
     max-width: 364px;
@@ -406,11 +378,6 @@ footer {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 20px;
-  }
-
-  .decorated-zone::before,
-  .decorated-zone::after {
-    margin: 20px;
   }
 
   footer {
