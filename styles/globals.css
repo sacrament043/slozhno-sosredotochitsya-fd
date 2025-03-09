@@ -10,6 +10,11 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
+  background-image: var(--background-image-header);
+  background-size: cover; 
+  background-position: top center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
 }
 
 h1,

@@ -12,27 +12,26 @@
   --accent-color: rgba(255, 0, 112, 1);
   --text-size: 18px;
   --background-color-page: rgba(255, 241, 247, 1);
-  --h1-color--and-footer: rgba(255, 194, 230, 1);
-  --font-family: 'IBM Plex mono', sans-serif;
+  --article-item-title-footer-color: rgba(255, 194, 230, 1);
+  --font-family: "IBM Plex mono", sans-serif;
   --color-p-text: rgba(53, 52, 48, 1);
-  --h3-color: rgba(53, 52, 48, 1);
-  --back-color-h3: rgba(255, 141, 203, 1);
-  --background-image-header: url('../images/cover-image-light.png');
-  --h2-title-color: rgba(53, 52, 48, 1);
+  --block-text-description_title: rgba(53, 52, 48, 1);
+  --back-color-title-description: rgba(255, 141, 203, 1);
+  --background-image-header: url("../images/cover-image-light.png");
+  --block-text_title: rgba(53, 52, 48, 1);
   --header-footer-color-shadow: rgba(255, 141, 203, 1);
   --corner-color: rgba(53, 52, 48, 1);
   --color-button: rgba(53, 52, 48, 1);
+  --color-button-hover: rgba(50, 49, 45, 0.4);
+  --text-link-hover: rgba(53, 52, 48, 1);
 }
 
 .theme-light .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
-
-  
 }
 
 .theme-light .header-text-lamp {
-  display: none;
-  
+  visibility: hidden;
 }
 
 @media (prefers-color-scheme: light) {
@@ -40,16 +39,19 @@
     --accent-color: rgba(255, 0, 112, 1);
     --text-size: 18px;
     --background-color-page: rgba(255, 241, 247, 1);
-    --h1-color--and-footer: rgba(255, 194, 230, 1);
-    --font-family: 'IBM Plex mono', sans-serif;
+    --article-item-title-footer-color: rgba(255, 194, 230, 1);
+    --font-family: "IBM Plex mono", sans-serif;
     --color-p-text: rgba(53, 52, 48, 1);
-    --h3-color: rgba(53, 52, 48, 1);
-    --back-color-h3: rgba(255, 141, 203, 1);
-    --background-image-header: url('../images/cover-image-light.png');
-    --h2-title-color: rgba(53, 52, 48, 1);
+    --block-text-description_title: rgba(53, 52, 48, 1);
+    --back-color-title-description: rgba(255, 141, 203, 1);
+    --background-image-header: url("../images/cover-image-light.png");
+    --block-text_title: rgba(53, 52, 48, 1);
     --header-footer-color-shadow: rgba(255, 141, 203, 1);
     --corner-color: rgba(53, 52, 48, 1);
+    --color-button-hover: rgba(255, 0, 112, 0.4);
     --color-button: rgba(53, 52, 48, 1);
   }
+  .theme-light .header-text-lamp {
+    visibility: hidden;
+  }
 }
-
