@@ -40,7 +40,6 @@
   position: relative;
   padding: 10px;
   display: grid;
-  display: block;
   place-items: center;
 }
 
