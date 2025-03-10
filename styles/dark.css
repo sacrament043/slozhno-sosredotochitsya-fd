@@ -16,15 +16,17 @@
   --article-item-title-footer-color: rgba(219, 0, 255, 1);
   --font-family: "IBM Plex mono", sans-serif;
   --color-p-text: rgba(241, 178, 206, 1);
-  --block-text-description_title: rgba(0, 0, 40, 1);
+  --header_text-description-title: rgba(0, 0, 40, 1);
   --back-color-title-description: rgba(255, 0, 112, 1);
   --background-image-header: url("../images/cover-image-dark.png");
-  --block-text_title: rgba(255, 0, 112, 1);
+  --text-title: rgba(255, 0, 112, 1);
   --header-footer-color-shadow: rgba(255, 0, 112, 1);
   --corner-color: rgba(255, 0, 112, 1);
   --color-button: rgba(255, 0, 112, 1);
   --color-button-hover: rgba(255, 0, 112, 0.4);
   --text-link-hover: rgba(241, 178, 206, 1);
+  --text-link-focus: rgba(241, 178, 206, 1);
+  --color-button-active: rgba(255, 0, 112, 1);
 }
 
 .theme-dark .page {
