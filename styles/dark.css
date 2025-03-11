@@ -2,6 +2,9 @@
   Специально для тёмной темы при наличии класса,
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
+  .theme-dark .dark-theme-decor {
+  display: block;
+}
 */
 
 :root.theme-dark {
@@ -16,7 +19,7 @@
   --article-item-title-footer-color: rgba(219, 0, 255, 1);
   --font-family: "IBM Plex mono", sans-serif;
   --color-p-text: rgba(241, 178, 206, 1);
-  --header_text-description-title: rgba(0, 0, 40, 1);
+  --header-text-description-title: rgba(0, 0, 40, 1);
   --back-color-title-description: rgba(255, 0, 112, 1);
   --background-image-header: url("../images/cover-image-dark.png");
   --text-title: rgba(255, 0, 112, 1);
@@ -31,4 +34,8 @@
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
+}
+
+.theme-dark .header-text-lamp {
+  visibility: visible;
 }

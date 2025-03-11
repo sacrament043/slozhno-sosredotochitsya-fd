@@ -134,7 +134,7 @@
   font-size: var(--text-size);
   line-height: 23.4px;
   letter-spacing: 0;
-  color: var(--header_text-description-title);
+  color: var(--header-text-description-title);
 }
 
 .title-decor {
@@ -161,7 +161,7 @@
   line-height: 23.4px;
   letter-spacing: 0;
   background-color: var(--back-color-title-description);
-  color: var(--header_text-description-title);
+  color: var(--header-text-description-title);
 }
 
 .block-text-description__what-concentration {
